@@ -1,11 +1,10 @@
 [user]
-    name = James A Shackleford
-    email = shack@linux.com
-    signingkey = 221B96CE
+    name = First Middle Last
+    email = user@mail.com
 [sendemail]
-    from = James A Shackleford <shack@linux.com>
-    smtpserver = smtp.gmail.com
-    smtpuser = James.A.Shackleford@gmail.com
+    from = First Middle Last <user@mail.com>
+    smtpserver = smtp.mail.com
+    smtpuser = user@mail.com
     smtpencryption = tls
     chainreplyto = true
     smtpserverport = 587
@@ -22,5 +21,3 @@
 [core]
     excludesfile = ~/.gitignore_global
     editor = vim
-#[credential]
-#   helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
